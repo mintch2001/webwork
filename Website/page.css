@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cloud;
+}
+html{
+    scroll-behavior: smooth;
+    
+}
+header{
+    text-align: center;
+}
+.page-home{
+    display: flex;
+    flex-direction: column; 
+    padding: 3rem;
+    height: 100vh;
+    justify-content: center;
+    text-align: center;
+    font-size: 25px;
+}
+.page-product{
+    background-image: url(Untitled-1.jpg);
+    color: white;
+    padding: 3rem;
+    height: 100vh;
+}
+.page-about{
+    background-color: white;
+    color: black;
+    padding: 3rem;
+    height: 100vh; 
+    justify-content: center;
+    text-align: center;
+}
+.product-content{
+    color: black;
+    justify-content: center;
+    text-align: center;
+}
